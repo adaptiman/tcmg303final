@@ -65,18 +65,19 @@ $ ~/tcmg303final/final_grader
 ### Points for the test are assigned as follows:
 
 ```
-       OpenEatsDocker hostname  +40
-              docker installed  +40
-      docker-compose installed  +40
- Azure Subscription ID present  +40
-   Confirm app running locally  +40
-               Database status  +40
-               2nd news banner  +40
-     App still running locally  +40
-      Database still connected  +40
-             Database migrated  +40
+       OpenEatsDocker hostname  +10  
+                        docker  +10  
+                docker-compose  +10  
+          Azure authentication  +20  
+ App running on any port (1/3)  +40  
+  App running on port 80 (2/3)  +40  
+ App running on port 443 (3/3)  +60  
+                     Test data  +40  
+               2nd news banner  +30  
+          App status (phase 2)  +40  
+             External database  +80  
+                Data installed  +20  
 ```
-
 ## Extra Credit
 
 One thing I didn't get around to prepping for you was migrating the local docker containers to Azure App Services - `worth 100 points of extra credit` if you can do it. I tried for two days to get it to work and was not successful - this is tough nut because the App Service documentation is a little thin. I would concentrate on the methodology for passing environment variables to an App Service. There are several ways to do it.
