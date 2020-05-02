@@ -50,7 +50,7 @@ I've looked over the OpenEats repo and have a few suggestions that may help you 
 
 # Getting Started
 
-For your development VM, use Azure Standard E2s v3 (2 vcpus, 16 GiB memory). Name it __OpenEatsDocker__ and create it in the __South Central US Region__.
+For your development VM, use Azure Standard D2s v3 (2 vcpus, 16 GiB memory). Name it __OpenEatsDocker__ and create it in the __South Central US Region__.
 
 Clone the repos __in your home directory__:
 ```
