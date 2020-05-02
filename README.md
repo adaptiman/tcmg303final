@@ -40,7 +40,7 @@ I've looked over the OpenEats repo and have a few suggestions that may help you 
 
 ## Advice from your sensei
 
-* My #1 suggestion is `READ THE DOCS!!!!` Don't start madly typing and deploying. Read the docs for the app, and become familiar with where things are and how things work BEFORE you jump in. What you need to know is *mostly* there.
+* My #1 suggestion is `READ THE DOCS!!!!` Don't start madly typing and deploying. Become familiar with where things are and how things work BEFORE you jump in. What you need to know is *mostly* there.
 
 * Don't be "that guy" - you know - the one who blasts out a message to everyone when he hits the first bump. It really hurts the team's performance, demonstrates that you're not willing to solve your own problem, alienates you from the team, and will hurt your career in the long run. If you run into a tough problem, do your homework, try to solve it, and only then involve your team.
 
