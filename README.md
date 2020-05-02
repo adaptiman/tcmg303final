@@ -25,7 +25,7 @@ Looking over the project, the app is deployed using four containers with the fol
 1. [openeats/openeats-nginx](https://github.com/open-eats/openeats-nginx) - This is a customized nginx web server that acts as a [reverse proxy](https://www.nginx.com/resources/glossary/reverse-proxy-server/). This container serves as the web front-end for the app but doesn't contain any data or website templates.
 2. [openeats/openeats-api](https://github.com/open-eats/openeats-api) - This is the core app that contains all of the website logic and templates. It's built on the [Django](https://www.djangoproject.com/) web framework.
 3. [openeats/openeats-web](https://github.com/open-eats/openeats-web) - This is a customized state container for the app based upon [React and Redux](https://react-redux.js.org/). A state container is responsible for "bundling" the data and serving it as javascript to the front-end. This particular container is an intermediate and doesn't continue to run after the app is built, although it's necessary.
-4. [mariadb](https://hub.docker.com/_/mariadb) - This is an unmodified containerized database common in many microservice apps. Mariadb is a lightweight version of MySQL and acts almost identically.
+4. [mariadb](https://hub.docker.com/_/mariadb) - This is an unmodified containerized database common in many microservice apps. Mariadb is a lightweight version of MySQL and acts almost identically. While running mariadb as a container is good for testing, a production app should use persistent external storage.
 
 # Suggestions for Deployment
 I've looked over the OpenEats repo and have a few suggestions that may help you in the deployment:
