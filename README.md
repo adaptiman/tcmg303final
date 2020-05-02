@@ -7,8 +7,10 @@
 
 Gordon Ramsay met with our company owners yesterday and dropped a bomb (along with a few f-bombs). He wants us to create a new site for him THIS WEEKEND. To make matters worse, he heard about this neat thing called "open source software" and thinks it would be really lit to use it. You may be aware that Mr. Ramsay can be a bit tempermental and demanding, so we have one shot to get this right.
 
+## Mission
 > Your task is to create and deploy a functional Web app in Azure Cloud Services using the [open source project OpenEats](https://github.com/open-eats/OpenEats/).
 
+## Requirements
 Summarizing Mr. Ramsay's requirements, the application must be:
 
 * Based upon the Open Eats project located at https://github.com/open-eats/OpenEats
@@ -46,17 +48,17 @@ I've looked over the OpenEats repo and have a few suggestions that may help you 
 
 <img src="images/79-focus.png" alt="Don't be that guy" />
 
-## Getting Started
+# Getting Started
 
 For your development VM, use Azure Standard E2s v3 (2 vcpus, 16 GiB memory). Name it `OpenEatsDocker` and create it in the `South Central US Region`.
 
-Clone the repos in your home directory:
+Clone the repos `in your home directory`:
 ```
 ~$ git clone https://github.com/adaptiman/tcmg303final.git  
 ~$ git clone https://github.com/open-eats/OpenEats.git 
 ```
 
-## Checking your Work
+# Checking your Work
 
 Luke has written a little program for you contained in this repo that will check your deployment as you go. Run it occasionally and check your work:
 ```
@@ -65,6 +67,7 @@ $ ~/tcmg303final/final_grader
 ### Points for the test are assigned as follows:
 
 ```
+Phase 1:
        OpenEatsDocker hostname  +10  
                         docker  +10  
                 docker-compose  +10  
@@ -74,17 +77,18 @@ $ ~/tcmg303final/final_grader
  App running on port 443 (3/3)  +60  
                      Test data  +40  
                2nd news banner  +30  
+Phase 2:
           App status (phase 2)  +40  
              External database  +80  
                 Data installed  +20  
 ```
-## Extra Credit
+# Extra Credit
 
 One thing I didn't get around to prepping for you was migrating the local docker containers to Azure App Services - `worth 100 points of extra credit` if you can do it. I tried for two days to get it to work and was not successful - this is tough nut because the App Service documentation is a little thin. I would concentrate on the methodology for passing environment variables to an App Service. There are several ways to do it.
 
 Note that this tasks is NOT evaluated by the grader program, so you'll have to contact me via Slack or Discord prior to Monday at noon to get credit. To get full credit, you will need to document the steps you took to accomplish it.
 
-## Final Note
+# Final Note
 
 Unfortunately, my vacation starts today, so I won't be here this weekend to help you. Since I'm hiking in the Dolomites, my mobile reception will probably be spotty. I might be able to respond on Discord or Slack, but you never know. Well, I'm off. In case I don't see you for a while, have a good summer, and GOOD LUCK!
 
