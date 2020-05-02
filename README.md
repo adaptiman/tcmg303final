@@ -13,10 +13,10 @@ Summarizing Mr. Ramsay's requirements, the application must be:
 
 * Based upon the Open Eats project located at https://github.com/open-eats/OpenEats
 * Built using Docker and Docker Compose tools according to the OpenEats documentation
-* Served over port 80
+* Served over port 80 (acceptable) or 443 (better). 
 * Populated with example data according to the OpenEats documentation 
 * Populated with at least one news banner to be configured from the within the app
-* Connected to a persistent Azure for MySQL Database Server (this database must also have the example data and news banner)
+* Connected to a persistent Azure for MySQL Database Server. This database must also have the example data and a second news banner welcoming Mr. Ramsay to the site.
 
 # Background
 
