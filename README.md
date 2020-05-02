@@ -42,7 +42,7 @@ I've looked over the OpenEats repo and have a few suggestions that may help you 
 
 ## Advice from your sensei
 
-* My #1 suggestion is `READ THE DOCS!!!!` Don't start madly typing and deploying. Become familiar with where things are and how things work BEFORE you jump in. What you need to know is *mostly* there.
+* My #1 suggestion is __READ THE DOCS!!!__ Don't start madly typing and deploying. Become familiar with where things are and how things work __BEFORE__ you jump in. What you need to know is *mostly* there.
 
 * Don't be "that guy" - you know - the one who blasts out a message to everyone when he hits the first bump. It really hurts the team's performance, demonstrates that you're not willing to solve your own problem, alienates you from the team, and will hurt your career in the long run. If you run into a tough problem, do your homework, try to solve it, and only then involve your team.
 
@@ -50,9 +50,9 @@ I've looked over the OpenEats repo and have a few suggestions that may help you 
 
 # Getting Started
 
-For your development VM, use Azure Standard E2s v3 (2 vcpus, 16 GiB memory). Name it `OpenEatsDocker` and create it in the `South Central US Region`.
+For your development VM, use Azure Standard E2s v3 (2 vcpus, 16 GiB memory). Name it __OpenEatsDocker__ and create it in the __South Central US Region__.
 
-Clone the repos `in your home directory`:
+Clone the repos __in your home directory__:
 ```
 ~$ git clone https://github.com/adaptiman/tcmg303final.git  
 ~$ git clone https://github.com/open-eats/OpenEats.git 
@@ -84,7 +84,7 @@ Phase 2:
 ```
 # Extra Credit
 
-One thing I didn't get around to prepping for you was migrating the local docker containers to Azure App Services - `worth 100 points of extra credit` if you can do it. I tried for two days to get it to work and was not successful - this is tough nut because the App Service documentation is a little thin. I would concentrate on the methodology for passing environment variables to an App Service. There are several ways to do it.
+One thing I didn't get around to prepping for you was migrating the local docker containers to Azure App Services - __worth 100 points of extra credit__ if you can do it. I tried for two days to get it to work and was not successful - this is tough nut because the App Service documentation is a little thin. I would concentrate on the methodology for passing environment variables to an App Service. There are several ways to do it.
 
 Note that this tasks is NOT evaluated by the grader program, so you'll have to contact me via Slack or Discord prior to Monday at noon to get credit. To get full credit, you will need to document the steps you took to accomplish it.
 
