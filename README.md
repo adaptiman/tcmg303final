@@ -5,7 +5,7 @@
 
 # Dear SysAdmin:
 
-Gordon Ramsay met with our company owners yesterday and dropped a bomb (along with a few f-bombs). He wants us to create a new site for him THIS WEEKEND. To make matters worse, he heard about this neat thing called "open source software" and thinks it would be really lit to use it. You may be aware that Mr. Ramsay can be a bit tempermental and demanding, so we have one shot to get this right.
+Gordon Ramsay met with our company owners yesterday and dropped a bomb (along with a few f-bombs). He wants us to create a new site for him THIS WEEKEND. To make matters worse, he heard about this neat thing called "open source software" and thinks it would be really lit to use it. You may be aware that Mr. Ramsay can be a bit temperamental and demanding, so we have one shot to get this right.
 
 ## Mission
 > Your task is to create and deploy a functional Web app in Azure Cloud Services using the [open source project OpenEats](https://github.com/open-eats/OpenEats/).
