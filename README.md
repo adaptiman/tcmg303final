@@ -57,6 +57,7 @@ Clone the repos __in your home directory__:
 ~$ git clone https://github.com/adaptiman/tcmg303final.git  
 ~$ git clone https://github.com/open-eats/OpenEats.git 
 ```
+Follow the instructions in the repos. Viewing markdown files (e.g., README.md) in on GitHub may be a little bit easier for you.
 
 # Checking your Work
 
