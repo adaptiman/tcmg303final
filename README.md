@@ -61,7 +61,7 @@ Follow the instructions in the repos. Viewing markdown files (e.g., README.md) i
 
 # Checking your Work
 
-Luke has written a little program for you contained in this repo that will check your deployment as you go. Run it occasionally and check your work:
+I have written a little program for you contained in this repo that will check your deployment as you go. Run it occasionally and check your work:
 ```
 $ ~/tcmg303final/final_grader
 ```
